@@ -8,6 +8,6 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 
-app.use("/api/createtask")
-app.use("api/auth", authRouter)
+// app.use("/api/createtask")
+app.use("/api/auth", authRouter)
 export default app
